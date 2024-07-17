@@ -1,0 +1,5 @@
+This Repo contains the code for a Object Detection and Recognition Model using OpenCV and YOLOv8. 
+
+
+command to run: python objectDetection.py
+
