@@ -1,5 +1,5 @@
 This Repo contains the code for a Object Detection and Recognition Model using OpenCV and YOLOv8. 
-
+Must have cv2 and ultralytics python modules installed in order to use. 
 
 command to run: python objectDetection.py
 
