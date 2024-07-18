@@ -39,7 +39,7 @@ while True:
 
                 ## draw rectangle and put text
                 cv2.rectangle(frame, (x1, y1), (x2, y2), colour, 2)
-                cv2.putText(frame, f'{classes_names[int(box.cls[0])]}{box.conf[0]:.2f}', (x1, y1), cv2.FONT_HERSHEY_SIMPLEX, 1, colour, 2)
+                cv2.putText(frame, f'{classes_names[int(box.cls[0])]}', (x1, y1), cv2.FONT_HERSHEY_SIMPLEX, 1, colour, 2)
 
     cv2.imshow('frame', frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
